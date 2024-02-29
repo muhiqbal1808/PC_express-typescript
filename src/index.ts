@@ -3,7 +3,7 @@ import 'dotenv/config'
 
 const app: Application = express()
 const port: number =
-  process.env.PORT != null ? parseInt(process.env.PORT) : 3000
+  process.env.PORT != null ? parseInt(process.env.PORT) : 7000
 
 app.get('/', (req: Request, res: Response) => {
   res.send('Hello World')
